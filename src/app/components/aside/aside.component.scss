@@ -1,0 +1,63 @@
+@import '../../../styles.scss';
+
+.container__aside{
+  width: 100%;
+  height: 80vh;
+  background-color: $color-primary;
+  color: $color-white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+
+  .container__profile__img{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    img{
+      width: 180px;
+      border-radius: 100%;
+      pointer-events: none;
+    }
+  }
+
+  .container__profileInfo{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+      font-size: 28px;
+    }
+    h6{
+      padding-top: 10px;
+      font-size: 16px;
+      font-weight: bold;
+      color: $color-secondary;
+    }
+  }
+
+  .container__personalSkills-LANG{
+    padding-top:30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    h1{
+      font-size: 26px;
+      padding-bottom: 10px;
+    }
+
+    ul li{
+      padding-bottom: 10px;
+      color:$color-third;
+      font-weight: bold;
+    }
+  }
+
+  .container__languages{
+
+  }
+}
+
