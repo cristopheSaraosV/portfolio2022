@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+$color-primary: #3e2f48;
+$color-secondary: #e56b6f;
+$color-third: #eaac8b;
+$color-white: #f3f3f3;
+$color-body: #ede1db;
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: montserrat;
+  background-color: $color-body;
+}
+
