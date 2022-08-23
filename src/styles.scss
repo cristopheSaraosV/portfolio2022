@@ -2,8 +2,20 @@
 $color-primary: #3e2f48;
 $color-secondary: #e56b6f;
 $color-third: #eaac8b;
+$color-thirdHover: #b6856b;
 $color-white: #f3f3f3;
 $color-body: #ede1db;
+
+$color-linkedin: #6B70E5;
+$color-gmail: #E56B6B;
+$color-telegram: #6BAAE5;
+$color-whatsapp: #6BE57F;
+
+$color-linkedinHover: #585bb9;
+$color-gmailHover: #b45555;
+$color-telegramHover: #5181af;
+$color-whatsappHover: #51b161;
+
 
 * {
   padding: 0;
@@ -19,3 +31,10 @@ body {
   background-color: $color-body;
 }
 
+
+@media (max-width:767px) {
+  *{
+   background: $color-primary !important;
+   transition: .5s ease-out;
+  }
+ }
