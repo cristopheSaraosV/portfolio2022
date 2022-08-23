@@ -4,13 +4,15 @@ import { MenuComponent } from './menu/menu.component';
 import { AsideComponent } from './aside/aside.component';
 import { PresentationComponent } from './presentation/presentation.component';
 import { ContactComponent } from './contact/contact.component';
+import { RouterModule } from '@angular/router';
 
 
 
 @NgModule({
   declarations: [MenuComponent, AsideComponent, PresentationComponent, ContactComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   exports:[
     MenuComponent,

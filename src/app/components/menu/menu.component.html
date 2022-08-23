@@ -5,6 +5,6 @@
   </label>
   <label class="logo">{{title}}</label>
   <ul>
-    <li *ngFor="let option of options"><a  [href]="option.route">{{option.name}}</a></li>
+    <li *ngFor="let option of options"><a  [routerLink]="option.route">{{option.name}}</a></li>
   </ul>
 </nav>

@@ -33,8 +33,7 @@ body {
 
 
 @media (max-width:767px) {
-  *{
-   background: $color-primary !important;
-   transition: .5s ease-out;
+  body{
+    background-color: $color-primary;
   }
  }

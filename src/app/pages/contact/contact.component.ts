@@ -2,14 +2,13 @@ import { Component, OnInit } from '@angular/core';
 import { OptionsMenu } from '../../interfaces/optionsMenu.interface';
 
 @Component({
-  selector: 'app-homePage',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
+  selector: 'app-contactPage',
+  templateUrl: './contact.component.html',
+  styleUrls: ['./contact.component.scss']
 })
-export class HomeComponent implements OnInit {
+export class ContactComponent implements OnInit {
 
   constructor() { }
-
   optionsMenu!: OptionsMenu[];
 
   ngOnInit(): void {
