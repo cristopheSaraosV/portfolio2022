@@ -22,12 +22,12 @@
     <div class="container__certificates-course">
       <h1>Certificates and courses</h1>
       <div class="container__certificates-course_item">
-        <span>Advanced Angular: Take your bases to the next level - MEAN</span>
-        <button class="btn-go">GO</button>
+        <span>{{courses[courseSelected].course}}</span>
+        <button disabled class="btn-go">GO</button>
       </div>
       <div class="container__btnGroup">
-        <a class="btn-actions" href="#"><i class="fas fa-solid fa-arrow-left"></i></a>
-        <a class="btn-actions"  href="#"><i class="fas fa-solid fa-arrow-right"></i></a>
+        <a (click)="changeCourse(-1)" class="btn-actions"><i class="fas fa-solid fa-arrow-left"></i></a>
+        <a (click)="changeCourse(1)" class="btn-actions" ><i class="fas fa-solid fa-arrow-right"></i></a>
       </div>
     </div>
 </div>
